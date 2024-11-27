@@ -8,13 +8,13 @@ Bibliography files can be found in the `bibliography` directory.
 
 ## Table of Contents
 
-- [All Sky Cameras: Hardware and analysis](#all-sky-cameras)
+- [All Sky Cameras: Hardware and Analysis](#all-sky-cameras)
 
-- [Research Datasets and resources](#research-datasets-and-resources)
+- [Research Datasets and Resources](#research-datasets-and-resources)
 
-- [Computer Vision: Image processing and forecasting](#computer-vision)
+- [Computer Vision: Image Processing and Forecasting](#computer-vision)
 
-- [Deep Learning and AI: Image processing and forecasting](#deep-learning-and-ai)
+- [Photovoltaic Forecasting](#Nowcasting-using-All-Sky-Images)
 
 - [Solar and Photovoltaic Energy Facts in Germany (German)](#solar-and-photovoltaic-energy-writeups)
 
@@ -118,7 +118,7 @@ Focus lies on cloud (-type) and sun identification and segmentation.
     The method is evaluated on a dataset of sky images and compared to other classification methods.
     </details>
 
-### Nowcasting
+## Nowcasting using All Sky Images
 
 This subsection contains resources on nowcasting, which is the prediction of weather conditions in the near future.
 
@@ -143,6 +143,34 @@ This subsection contains resources on nowcasting, which is the prediction of wea
     the instantaneous cloud radiative effect is calculated using sky camera images.
     </details>
 
+- **A broadband simplified version of the Solis clear sky model**
+    <details>
+    <summary>Details</summary>
+    This paper presents a simplified version of the Solis clear sky model.
+    It aims to resolve the issue of the model's complexity and computational cost by using a broadband approach.
+    The accuracy of the simplified model is then compared to the original model.
+    </details>
+
+- **A new airmass independent formulation for the Linke turbidity coefficient**
+    <details>
+    <summary>Details</summary>
+    A new formulation for the Linke turbidity coefficient is presented in this paper.
+    The focus lies on making the coefficient more independent of solar geometry.
+    As a result, two new simple clear sky models for global and direct normal irradiance are proposed.
+    </details>
+
+- **The Estimation of Clear Sky Global Horizontal Irradiance at the Equator**
+    <details>
+    <summary>Details</summary>
+    This paper presents a regression method to parameterise one selection of multiple proposed empirical clear sky models for the estimation of clear sky global horizontal irradiance at the equator.
+    The developed model is then validated using data from different stations in Singapore.
+    </details>
+
 ## Solar and Photovoltaic Energy Writeups
 
 This section contains writeups and facts about solar and photovoltaic energy. As of now, the resources are only available in German.
+
+- **Aktuelle Fakten zur Photovoltaik in Deutschland**
+    This writeup provides an overview of the current state of photovoltaic energy in Germany.
+    It is written in a way for the general public to understand the current situation and future prospects of photovoltaic energy
+    and aims to answer common questions about the topic as well as busting myths.
