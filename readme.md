@@ -171,6 +171,9 @@ This subsection contains resources on nowcasting, which is the prediction of wea
 This section contains writeups and facts about solar and photovoltaic energy. As of now, the resources are only available in German.
 
 - **Aktuelle Fakten zur Photovoltaik in Deutschland**
+    <details>
+    <summary>Details</summary>
     This writeup provides an overview of the current state of photovoltaic energy in Germany.
     It is written in a way for the general public to understand the current situation and future prospects of photovoltaic energy
     and aims to answer common questions about the topic as well as busting myths.
+    </details>
