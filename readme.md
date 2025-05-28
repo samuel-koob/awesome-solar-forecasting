@@ -12,6 +12,8 @@ Bibliography files can be found in the `bibliography` directory.
 
 - [Research Datasets and Resources](#research-datasets-and-resources)
 
+- [Convolutional Neural Networks for Solar and Photovoltaic Energy Forecasting](#convolutional-neural-networks-for-solar-and-photovoltaic-energy-forecasting)
+
 - [Computer Vision: Image Processing and Forecasting](#computer-vision)
 
 - [Photovoltaic Forecasting](#Nowcasting-using-All-Sky-Images)
@@ -82,6 +84,19 @@ This section contains useful datasets and resources for solar and photovoltaic e
 
     More information can be found on the website:
     https://www.allskycam.com/
+    </details>
+
+## Convolutional Neural Networks for Solar and Photovoltaic Energy Forecasting
+This section contains resources on the use of Convolutional Neural Networks (CNNs) for solar and photovoltaic energy forecasting.
+
+- **Transfer Learning for Cloud Image Classification**
+    <details>
+    <summary>Details</summary>
+    This paper presents a method for cloud image classification using transfer learning.
+    The method uses pre-trained CNNs to classify cloud images and is evaluated on a dataset of cloud images.
+
+    - [Url](https://ieeexplore.ieee.org/document/10281791)
+    - DOI: 10.1109/IGARSS52108.2023.10281791
     </details>
 
 ## Computer Vision
