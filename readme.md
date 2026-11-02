@@ -86,13 +86,13 @@ This section contains useful datasets and resources for solar and photovoltaic e
     https://www.allskycam.com/
     </details>
 
-- **Solar forecasting: reference models and worked examples**
+- **Solar forecasting: interactive reference-model comparison**
     <details>
     <summary>Details</summary>
 
-    A course-based worked example introducing persistence references, time-series preparation and forecast evaluation, with links to methods, papers and research code.
+    A browser-based comparison of persistence, autoregression and ELM forecasts on public photovoltaic data, with error measures, assumptions and links to methods and research code.
 
-    https://cyrilvoyant.github.io/teaching/solar-forecasting-basics.html
+    https://www.cyrilvoyant.com/tools/forecast-comparison/
     </details>
 
 ## Convolutional Neural Networks for Solar and Photovoltaic Energy Forecasting
