@@ -1,0 +1,54 @@
+
+name: Add new resource
+description: Propose to add a new resource (paper, dataset, website,...)
+title: "[RES]: "
+labels: ["new-resource"]
+assignees:
+  - sam-k0
+
+body:
+  - type: dropdown
+    id: type-res
+    attributes:
+      label: Type
+      description: What type of resource is it?
+      options:
+        - Research Paper
+        - Dataset
+        - Website
+        - Other
+      default: 0
+    validations:
+      required: true
+
+  - type: input
+    id: title-res
+    attributes:
+      label: Title
+      description: The title of the resource
+    validations:
+      required: true
+
+  - type: textarea
+    id: explanation-res
+    attributes:
+      label: Short summary
+      description: A very short summary for the details section
+      placeholder: Should not be longer than 4 sentences.
+    validations:
+      required: true
+
+  - type: textarea
+    id: bibtex-res
+    attributes:
+      label: Bibliography file content
+      description: Please provide the full content of the .bib citation file.
+      render: shell
+
+  - type: input
+    id: url-res
+    attributes:
+      label: Online URL
+      description: The URL to the resource or, if it's a website, the website itself.
+    validations:
+      required: true
