@@ -1,6 +1,11 @@
 # Awesome Solar and Photovoltaic Energy Forecasting
 This repository contains a list of awesome resources for solar and photovoltaic energy (forecasting),
-as well as All Sky Imagers (camera installations that capture as much sky as possible). The list is not exhaustive and will be updated regularly. If you have any suggestions, please feel free to contribute.
+as well as All Sky Imagers (camera installations that capture as much sky as possible). The list is not exhaustive and will be updated regularly. If you have any suggestions, please feel free to contribute. 
+
+
+> [!TIP]
+> You can either file a pull request with your added resources, or file an issue with the "Add Resource" template, which I will then add.
+
 
 Research Datasets will be added soon.
 
