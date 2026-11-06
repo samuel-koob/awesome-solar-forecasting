@@ -1,0 +1,14 @@
+@Article{jimaging12040165,
+AUTHOR = {Seyidbayli, Chingiz and Nezakat, Soheil and Reinhardt, Andreas},
+TITLE = {Probabilistic Short-Term Sky Image Forecasting Using VQ-VAE and Transformer Models on Sky Camera Data},
+JOURNAL = {Journal of Imaging},
+VOLUME = {12},
+YEAR = {2026},
+NUMBER = {4},
+ARTICLE-NUMBER = {165},
+URL = {https://www.mdpi.com/2313-433X/12/4/165},
+PubMedID = {42042508},
+ISSN = {2313-433X},
+ABSTRACT = {Cloud cover significantly reduces the electrical power output of photovoltaic systems, making accurate short-term cloud movement predictions essential for reliable solar energy production planning. This article presents a deep learning framework that directly estimates cloud movement from ground-based all-sky camera images, rather than predicting future production from past power data. The system is based on a three-step process: First, a lightweight Convolutional Neural Network segments cloud regions and produces probabilistic masks that represent the spatial distribution of clouds in a compact and computationally efficient manner. This allows subsequent models to focus on the geometry of clouds rather than irrelevant visual features such as illumination changes. Second, a Vector Quantized Variational Autoencoder compresses these masks into discrete latent token sequences, reducing dimensionality while preserving fundamental cloud structure patterns. Third, a GPT-style autoregressive transformer learns temporal dependencies in this token space and predicts future sequences based on past observations, enabling iterative multi-step predictions, where each prediction serves as the input for subsequent time steps. Our evaluations show an average intersection-over-union ratio of 0.92 and a pixel accuracy of 0.96 for single-step (5 s ahead) predictions, while performance smoothly decreases to an intersection-over-union ratio of 0.65 and an accuracy of 0.80 in 10 min autoregressive propagation. The framework also provides prediction uncertainty estimates through token-level entropy measurement, which shows positive correlation with prediction error and serves as a confidence indicator for downstream decision-making in solar energy forecasting applications.},
+DOI = {10.3390/jimaging12040165}
+}

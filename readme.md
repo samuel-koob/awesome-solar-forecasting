@@ -12,7 +12,7 @@ Bibliography files can be found in the `bibliography` directory.
 
 - [Research Datasets and Resources](#research-datasets-and-resources)
 
-- [Convolutional Neural Networks for Solar and Photovoltaic Energy Forecasting](#convolutional-neural-networks-for-solar-and-photovoltaic-energy-forecasting)
+- [Neural Networks for Cloud Prediction and Photovoltaic Energy Forecasting](#neural-networks-for-cloud-prediction-and-photovoltaic-energy-forecasting)
 
 - [Computer Vision: Image Processing and Forecasting](#computer-vision)
 
@@ -95,7 +95,7 @@ This section contains useful datasets and resources for solar and photovoltaic e
     https://www.cyrilvoyant.com/tools/forecast-comparison/
     </details>
 
-## Convolutional Neural Networks for Solar and Photovoltaic Energy Forecasting
+## Neural Networks for Cloud Prediction and Photovoltaic Energy Forecasting
 This section contains resources on the use of Convolutional Neural Networks (CNNs) for solar and photovoltaic energy forecasting.
 
 - **Transfer Learning for Cloud Image Classification**
@@ -106,6 +106,17 @@ This section contains resources on the use of Convolutional Neural Networks (CNN
 
     - [Url](https://ieeexplore.ieee.org/document/10281791)
     - DOI: 10.1109/IGARSS52108.2023.10281791
+    </details>
+
+
+- **Probabilistic Short-Term Sky Image Forecasting Using VQ-VAE and Transformer Models on Sky Camera Data**
+    <details>
+    <summary>Details</summary>
+    This article presents a deep learning framework that directly estimates cloud movement from ground-based all-sky camera images, rather than predicting future production from past power data.
+    Involves a CNN, VQ-VAE and an AR Transformer in its pipeline.
+
+    - [Url](https://www.mdpi.com/2313-433X/12/4/165)
+    - DOI: 10.3390/jimaging12040165
     </details>
 
 ## Computer Vision
