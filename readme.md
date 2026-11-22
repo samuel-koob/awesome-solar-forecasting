@@ -96,6 +96,15 @@ This section contains useful datasets and resources for solar and photovoltaic e
     https://www.cyrilvoyant.com/tools/forecast-comparison/
     </details>
 
+- **FrugalCast: browser-based forecasting model comparison**
+    <details>
+    <summary>Details</summary>
+
+    Compare 30 univariate forecasting models (persistence, cyclic persistence, exponential smoothing, AR, ARMA, periodic AR and extreme learning machines) on your own solar irradiance or PV power series, with time-ordered validation, prediction intervals and deterministic and probabilistic scores (nRMSE, PICP, CRPS). The computation runs in the browser without uploading the data. Free for research, teaching and other non-commercial use; DOI 10.5281/zenodo.24197717.
+
+    https://frugalcast.cyrilvoyant.com/
+    </details>
+
 ## Neural Networks for Cloud Prediction and Photovoltaic Energy Forecasting
 This section contains resources on the use of Convolutional Neural Networks (CNNs) for solar and photovoltaic energy forecasting.
 
